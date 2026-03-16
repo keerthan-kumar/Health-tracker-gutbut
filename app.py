@@ -991,8 +991,8 @@ def render_results(user_inputs: dict, booster, feature_cols: list, calibrator):
     m4.metric("HRV",       f"{user_inputs['rmssd']} ms",
               delta="▼ low" if user_inputs["rmssd"] < 30 else "✓ good",
               delta_color="inverse" if user_inputs["rmssd"] < 30 else "normal")
-    m5.metric("Risk Score",f"{risk_pct:.0f}%",
-              delta=level_txt, delta_color="inverse" if risk_pct > 50 else "normal")
+   m5.metric("Risk Score",f"{risk_pct:.0f}%",
+          delta=level_txt, delta_color="inverse" if risk_pct > 78 else "normal")
 
 
 # ─────────────────────────────────────────────────────────────
