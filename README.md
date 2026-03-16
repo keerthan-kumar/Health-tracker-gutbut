@@ -23,7 +23,7 @@ Instead of asking *"how do you feel?"*, it reads the physiological patterns that
 
 ## Live Demo
 
-🔗 **[Open the app →](https://your-app-link.streamlit.app)**
+🔗 **[Open the app →](https://health-tracker-gutbut-b3o2c7rnnfm8v4njokyz4x.streamlit.app/)**
 
 No installation required. Open in any browser on desktop or mobile.
 
