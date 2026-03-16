@@ -845,7 +845,7 @@ def render_results(user_inputs: dict, booster, feature_cols: list, calibrator):
     risk_pct = cal_p * 100
 
     # ── Risk level ────────────────────────────────────────────────────────
-    level     = "low" if risk_pct < 35 else "medium" if risk_pct < 65 else "high"
+   level = "low" if risk_pct < 78 else "medium" if risk_pct < 89 else "high"
     level_txt = {"low": "LOW RISK", "medium": "MODERATE RISK", "high": "HIGH RISK"}[level]
 
     # ── SHAP ──────────────────────────────────────────────────────────────
