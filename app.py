@@ -519,7 +519,7 @@ def build_plain_insight(risk_pct: float, shap_df: pd.DataFrame,
     """
     top = shap_df[shap_df["abs_shap"] > 0].head(3)
 
-    level = "low" if risk_pct < 35 else "moderate" if risk_pct < 65 else "elevated"
+    level = "low" if risk_pct < 78 else "moderate" if risk_pct < 89 else "elevated"
     opener = {
         "low":      f"Your current risk score of {risk_pct:.0f}% suggests a **low likelihood** of an anxiety trigger today.",
         "moderate": f"Your risk score of {risk_pct:.0f}% indicates a **moderate** chance of elevated anxiety — worth monitoring.",
