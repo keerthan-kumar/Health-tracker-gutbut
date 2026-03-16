@@ -29,7 +29,7 @@ risk score with plain-language recommendations.
 
 ## Live Demo
 
-🔗 **[Open the app →](https://your-app-link.streamlit.app)**
+🔗 **[Open the app →](https://health-tracker-gutbut-b3o2c7rnnfm8v4njokyz4x.streamlit.app/)**
 
 No installation required. Open in any browser on desktop or mobile.
 
