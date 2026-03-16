@@ -1,0 +1,8 @@
+streamlit>=1.32.0
+lightgbm>=4.1.0
+shap>=0.44.0
+pandas>=2.0.0
+numpy>=1.26.0
+plotly>=5.18.0
+matplotlib>=3.8.0
+scikit-learn>=1.4.0
