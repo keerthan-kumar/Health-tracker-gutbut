@@ -1,4 +1,4 @@
-# gut but · Behavioral Health Trigger Detection
+# Gut But · Behavioral Health Trigger Detection
 
 > *Detect anxiety triggers before they happen — using your wearable data.*
 
